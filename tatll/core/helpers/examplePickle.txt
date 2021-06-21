@@ -1,0 +1,4 @@
+http://httpd.apache.org/docs/current/rewrite/rewritemap.html   https://tinyurl.com/qvuzGA
+https://www.freecodecamp.org/news/uml-diagrams-full-course/    https://tat.us/tizxak35
+https://www.php.net/manual/en/pdo.query.php    https://tat.us/josdyp90
+

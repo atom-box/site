@@ -1,0 +1,304 @@
+
+.container {
+  max-width: 960px;
+}
+
+
+:root {
+  --light-gray: rgba(237, 234, 225, 0.5);
+  --black: rgb(0,0,0);
+  --orange: rgb( 226, 123, 8 );
+  --orange-alt: rgb(255, 190, 72 );
+  --green: rgb(68,  101, 22 );
+  --blue-pale: rgb(117, 194, 243 );
+  --highlight1: rgb(125, 252, 78  );
+  --highlight2: rgb(116, 250, 197 );
+  --mat1:  rgba(53, 121, 61, 0.3); /*#35793d;*/
+  --mat2: rgba(64, 146, 107, 0.3); /**/  #40926b;
+  --mat3: rgba(53, 121, 102, 0.3 ); /**/ #357966; /* 116 250 197  for text complement*/
+  --text-for-mat3: rgb(116, 250, 197);
+  --mat4: rgba(59, 121, 53, 0.3); /**/ #3b7935;
+  --mat5: rgba(53, 121, 88, 0.3); /**/ #357958; /*116  250 162 for text complement*/ 
+  --mat5solid: rgb(53, 121, 88); /**/ #357958; /*116  250 162 for text complement*/ 
+  --text-for-mat5: rgb(116  250 162);
+  --mat6: var(--mat1);
+  --mat7: yellow;
+  --mat8: yellow;
+  --device1: var(--mat4);
+  --device2: var(--mat5);
+  --link1: #ffa;
+  --white: #fff;
+}
+
+* {
+  z-index: 1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*
+ *  Lists.   Links.
+ */
+
+h2 a {  
+  font-family: "Wire One", monospace;
+}
+
+a.link1{
+  text-decoration: none;
+  color: #ffa;
+}
+
+a.link1:hover{
+  color: var(--blue-pale);
+  text-decoration: none;
+  font-style: italic;
+  transition: ease-in-out color .15s;
+}
+
+i.fab {
+  color: white;
+  padding-right: 2rem;
+}
+
+.list-group-item {
+    border: 0 !important;
+    margin: 0px;
+    padding: 0.3rem 0rem;
+    background-color: transparent;
+    text-align: center;
+}
+
+.special-bullet {
+  list-style: none;
+}
+
+.special-bullet li:before{
+  content: '\7e';
+  margin-right: 15px;
+}
+
+
+
+.s19 li:before{
+}
+
+
+/*
+ * Font
+ */
+
+.font-funky {
+  font-family: "Wire One", monospace;
+}
+
+.font-big {
+  font-size: 4rem;
+}
+
+.font-big-big {
+  font-size: 6rem;
+}
+
+.font-chunky {
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+nav div a.brand.font-chunky {
+  color: white;
+}
+
+
+/*
+ *  Cards
+ */
+
+
+  .outpanel {
+    overflow: scroll;
+    height: 16rem;
+    max-width: 80%;
+  }
+
+.back {
+  xopacity: 0.6;
+  border-radius: 21px;
+
+}
+
+.back-light {
+  background-color: var(--light-gray);
+  opacity: 0.1;
+  border-radius: 21px;
+}
+
+.back1 {
+  background-color: var(--mat1);
+} 
+.back2 {
+  background-color: var(--mat2);
+} 
+.back3 {
+  background-color: var(--mat3);
+} 
+.back4 {
+  background-color: var(--mat4);
+} 
+.back5 {
+  background-color: var(--mat5);
+} 
+.back6 {
+  background-color: var(--mat6);
+} 
+.back7 {
+  background-color: var(--mat7);
+} 
+.back8 {
+  background-color: var(--mat8);
+} 
+
+
+
+/*
+ * site header w translucence
+ */
+
+.site-header, footer {
+  background-color: var(--mat5solid);
+  opacity: .75;
+  color: var(--white); 
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: var(--link1);
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: var(--blue-pale);
+  text-decoration: none;
+}
+
+
+/*
+ *  Landing / Jumbotron
+ */
+
+#landing-johnhancock {
+  margin-right: 2rem;
+}
+
+/*
+ *    Troubleshooting tests
+ */
+
+.thin-blue-line {
+  border: solid blue 0.1rem;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*
+ *  other Navbar
+ */
+
+.navspacer {
+  padding-left: 3rem; 
+}
+
+/*
+ * Whimsy (two of them at the top) 
+ */
+
+.whimsy {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: rgba(240, 240, 240, 0.9);
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+  z-index: 0;
+}
+
+.whimsy-inside {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: white; 
+  border-radius: 5px;
+}
+
+.whimsy-left {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+
+/*
+ *  Address
+ */
+
+address#contact h2 {
+  font-size: 1rem;
+  display: inline-block;
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+
+
+
+
+.overflow-hidden { overflow: hidden; }
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#evan-headshot {
+  width:125px;
+  height:106px;
+  border-radius: 43px;
+
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+          <title>More | Evan Genest</title>
+	<meta charset="utf-8">
+  <meta name="description" content="Credit where due: I modified this significantly but the original CSS was forked from LeFoy (only name given) at https://codepen.io/lefoy/details/rVqQvB#forks. I had to rewrite the SASS and Pug as CSS and HTML and the main JQuery part was not working after the fork so I wrote the Javascript toggle myself in JS.">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(
+console.log('jquery says "ready!"')
+);
+
+let flip = function(s){
+	console.log("Here comes beef.");
+	document.getElementById(s).classList.toggle("is-active");
+}
+
+</script>
+
+
+
+
+<link rel="stylesheet" type="text/css" >
+<link>
+
+<style type="text/css">
+
+
+body {
+  background-color: #1d1f20;
+  -webkit-transform: translate3d(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", monospace
+
+}
+
+a {
+  color: #99d;
+}
+
+img {
+/*	written for 620x800  h/w size*/
+height: 620px;
+width: 800px;
+}
+
+.cards {
+  width: 100%;
+  height: 100vh;
+  font-size: 0rem;  /*?????????? to do */
+}
+.cards:hover .card {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+.cards:hover .card:hover, .cards:hover .card.is-active {
+  opacity: 1;
+  filter: none;
+}
+.card {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  overflow: hidden;
+  width: 33.33333%;
+  height: 33.33333%;
+  cursor: pointer;
+  transition: all 300ms linear, opacity 300ms linear, filter 300ms linear;
+}
+.card.is-active {
+  z-index: 1;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transform: rotateY(180deg);
+  filter: none;
+}
+.card.is-active .card-front {
+  opacity: 0;
+  filter: none;
+}
+.card.is-active .card-back, .card.is-active .card-back-wrapper {
+  opacity: 1;
+}
+.card.is-active .card-back-wrapper {
+  transition: opacity 300ms 300ms linear;
+}
+.card-front, .card-back {
+  width: 100%;
+  height: 100%;
+  transition: all 0ms 150ms linear;
+}
+.card-front {
+  background-position: center;
+  background-size: cover;
+}
+.card-title {
+  color: white;
+  z-index: 0;
+  max-width: 5rem;
+  background-color: black;
+}
+
+
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #111213;
+}
+.card-back p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+  transform: translate(-50%, -50%);
+}
+.card-back-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 100ms 0ms;
+  transform: rotateY(180deg);
+}
+.card:nth-child(1) {
+  top: 0%;
+}
+.card:nth-child(1) + .card {
+  top: 0%;
+}
+.card:nth-child(1) + .card+ .card {
+  top: 0%;
+}
+.card:nth-child(1) {
+  left: 0%;
+}
+.card:nth-child(1) .card-front {
+  background-image: url("./images/fish.png"); 
+}
+.card:nth-child(2) {
+  left: 33.33333%;
+}
+.card:nth-child(2) .card-front {
+  background-image: url("./images/mcc3.png");
+}
+.card:nth-child(3) {
+  left: 66.66667%;
+}
+.card:nth-child(3) .card-front {
+  background-image: url("./images/burgdorferiP.png");
+}
+.card:nth-child(4) {
+  top: 33.33333%;
+}
+.card:nth-child(4) + .card {
+  top: 33.33333%;
+}
+.card:nth-child(4) + .card+ .card {
+  top: 33.33333%;
+}
+.card:nth-child(4) {
+  left: 0%;
+}
+.card:nth-child(4) .card-front {
+  background-image: url("./images/thatKey.jpg");
+}
+.card:nth-child(5) {
+  left: 33.33333%;
+}
+.card:nth-child(5) .card-front {
+  background-image: url("./images/wall.png");
+}
+.card:nth-child(6) {
+  left: 66.66667%;
+}
+.card:nth-child(6) .card-front {
+  background-image: url("./images/gitYears.png");
+}
+.card:nth-child(7) {
+  top: 66.66667%;
+}
+.card:nth-child(7) + .card {
+  top: 66.66667%;
+}
+.card:nth-child(7) + .card+ .card {
+  top: 66.66667%;
+}
+.card:nth-child(7) {
+  left: 0%;
+}
+.card:nth-child(7) .card-front {
+  background-image: url("./images/sprint.png");
+}
+.card:nth-child(8) {
+  left: 33.33333%;
+}
+.card:nth-child(8) .card-front {
+  background-image: url("./images/kris-evan-brett321x180.jpg");
+}
+.card:nth-child(9) {
+  left: 66.66667%;
+}
+.card:nth-child(9) .card-front {
+  background-image: url("./images/odysseus.png");
+}
+
+
+</style>
+
+</head>
+<body>
+
+<div class="cards">
+
+	<div class="card" id="one" onclick="flip('one')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>Flash Marketing<br><br>I once painted my chest for a marketing firm in New York.</p>
+    </div></div>
+	</div>
+	<div class="card" id="two" onclick="flip('two')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p><br>Public Speaking: <br><br>I gave a workshop on the Elm language at <a href="https://www.milwaukeecodecamp.com/speakers/2018">Milwaukee Code Camp 2019</a><br><br> (Elm is a purely functional language for the front end)<br><p></div></div>
+	</div>	<div class="card" id="three" onclick="flip('three')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>Data Science<br><br>In New York I wrote code in Weigang Qiu's <a href="http://diverge.hunter.cuny.edu/labwiki/Summer_2018">computational gene evolution group </a>. <br><br>We were <strong>data scientists</strong> using mostly Perl to apply Beyes and Poisson probability to large flat files of the gene sequences (e.g. ATTAGGCCC...) to decide which chunks of DNA had evolved from each other.</p></div></div>
+	</div>	<div class="card" id="four" onclick="flip('four')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>I enjoyed repping Scooter Software at the &ltTHAT&gt <a href="https://www.thatconference.com/wi">Conference</a>  in 2018 and 2019<br><br><p></div></div>
+	</div>	<div class="card" id="five" onclick="flip('five')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>I made some <a href="https://twitter.com/ScooterSoftware/status/1120801086120574976"> training videos </a> for customer support at Scooter Software using Camtasia video/sound editing software.<br><br><p></div></div>
+	</div>	<div class="card" id="six" onclick="flip('six')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>I get up early to code for a couple hours before work.  <br><br>Most of these <a href="http://github.com/atom-box/">Github</a> commits were done outside of work.<br><br><p></div></div>
+	</div>	<div class="card" id="seven" onclick="flip('seven')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>Solving puzzles with the other CS50 teachers at a Washington, DC workshop<p></div></div>
+	</div>	<div class="card" id="eight" onclick="flip('eight')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>Playing vinyl, a long time ago.<br><br><p></div></div>
+	</div>	<div class="card" id="nine" onclick="flip('nine')">
+		<div class="card-front" ><h2 class="card-title"></h2></div>
+		<div class="card-back"><div class="card-back-wrapper"><p>Return to the <a href="http://littlefurnace.com/"> Evan Genest Portfolio</a>!<p></div></div>
+	</div>
+
+</div>
+
+</body>
+</html>

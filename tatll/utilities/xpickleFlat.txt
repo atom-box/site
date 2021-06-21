@@ -1,0 +1,7 @@
+##
+## /home/evan/projects/do-not-commit/shortener.txt
+
+aaaaaa11 /templates/test.php
+aaaaaa22 /success.php
+aaaaaa33 https://sloanmusic.bandcamp.com/album/one-chord-to-another-deluxe-reissue
+abcdef12 https://example.com

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Evan Genest</title>
+    <meta name="description" content=" I am a web developer using JS or Elm in the frontend and Node.js & PostgreSQL in the backend.  I work at Scooter Software. These are my projects for my portfolio." />
+
+    <meta name="robots" content="all">
+    <meta name="robots" content="follow">
+    <meta name="author" content="Evan Genest">
+
+	<meta name="forked-from"      content="Sergey Pozhilov (GetTemplate.com)">
+	<link rel="shortcut icon" href="assets/images/eg_favicon.png">
+	
+	<!-- Bootstrap itself -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/magister.css">
+
+	<!-- Fonts -->
+	<xlink href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	    <script src="https://kit.fontawesome.com/c0497ccda4.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+</head>
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body xclass="theme-invert">
+
+
+
+
+<nav class="mainmenu">
+	<div class="container">
+		<div class="dropdown">
+			<button type="button" class="navbar-toggle " data-toggle="dropdown">
+
+				<span class="icon-bar shadow"></span> 
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span> 
+			</button>
+			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a href="#head" class="active">Home</a></li>
+				<li><a href="#bio">Bio</a></li>
+				<li><a href="#star-project">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<!-- Main (Home) section -->
+<section class="section hold-mat" id="head">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-7 col-sm-offset-3  ghost-mat text-center">	
+
+				<!-- Site Title, your name, HELLO msg, etc. -->
+				<h1 class="title">Evan Genest </h1>
+				<h2 class="subtitle">Web Developer</h2>
+
+				<!-- Short introductory (optional) -->
+				<h3 class="tagline">
+Using: Linux, React, Nginx, Node.js, PostGreSQL 
+				</h3>
+				
+				<!-- Nice place to describe your site in a sentence or two -->
+				<p><a href="assets/images/Evan-Genest-2019-resume.pdf" class="btn btn-link"><i class="far fa-file-pdf"></i> My resumé</a></p>
+	
+			</div> <!-- /col -->
+		</div> <!-- /row -->
+	
+	</div>
+</section>
+
+<!-- Second (Short) section -->
+
+
+
+<section class="section hold-mat" id="bio">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-7 col-sm-offset-3  ghost-mat ">
+
+                <div class="row">
+                    <div class="col-sm-2 col-sm-offset-4">
+                        <p class="text-right light-text">More</p>
+                    </div>
+                    <div class="col-sm-2 \">
+                        <input type="checkbox" id="toggle" data-toggle="collapse" data-target="#toggle01" class="offscreen" />
+                        <label for="toggle" class="switch"></label>
+                    </div>
+                </div>
+                <p class="text-left xlead ">
+I am at a software company that focuses on hardware and operating system issues.  It has been an interesting year and a half but the company is small and I have limited possibilities for advancement.  On my own I've been building web development projects for the last two years.  My stack is Javascript focused: React in the front end, Node in the back end, and SQL databases for the data.<br><br>
+
+I am looking to move into any role where I can work hard on solving web development problems and get feedback.  Proven communication strategies are my number one consideration in joining a team right now.
+                </p>
+            </div>
+
+        </div>
+        <div class="row collapse" id="toggle01">
+            <div class="col-sm-7 col-sm-offset-3  ghost-mat ">
+                <p class="text-left xlead">
+I quit my job in 2017 to learn web development.  I had some coding experience already in Perl and C++.  Also, I had taught Intro to Computer Science to AP high school students.  I did that by adapting Harvard’s C language college curriculum. Now, with O'Reilly books, MOOC's like EdX, and the help of friends, I have worked my way down through the front end, back end, and data base with a series of projects.  Having gone through the whole stack once, I am now back in the front end learning a better framework (React).  <br><br>
+
+I supported myself during this with a role I found in customer support at a really interesting company that focuses on hardware and the operating system (but unfortunately not Web Development).  At Scooter Software I solve problems that come into the ticketing system from Scooter's worldwide customer base and I enjoy writing documentation and company Twitter posts.  But I'm ready to work in a team that does web development now, which is what I set out to do in 2017. <br><br>
+
+My recent a la cart boot-camp-ish curriculum for the last two years didn't come out of nowhere.  I have a solid foundation from college to build on. As an undergrad I took 20 credits worth of Computer Science electives: Intro to Computer Science (C-Language), Perl & Unix programming, Intro to C++, Microprocessor Architecture, and the accompanying Digital Logic Lab.  This culminated around 2009 with writing the Perl code for a gene evolution group. We were taking large flat files of the gene sequences (e.g. ATTAGGCCC...) and finding the start and stop codes and applying tests like Poisson's to trace hundreds of years of DNA evolution in Lyme Disease.   Now, after several years of teaching, I am coding again, and have gone forward with what you see on my projects page.<br><br>
+
+My path to computer programming includes a long stint teaching high school and a bit of college.  I got into teaching initially because I wanted to get paid to keep learning (science and technology).  I stayed with it because the interaction with people became so interesting.  I finally left teaching because I was impatient to learn more technology and I knew a return to programming would do that.  I also wanted a role in enterprise.<br><br>
+
+My heroes are folks like the Inc 1000, the inventors of Agile, Design Sprint, and the people that write for the Harvard Business Review.  I read those books and see their brilliance at how to execute on people’s ideas.  One of the takeaways from my decade as a STEM teacher is seeing what works for a team.  I've struggled with organizations that wanted to perpetuate hierarchical ways of running a chemistry classroom; as a teacher I explicitly taught students Kanban procedures.  I went way out of my way to implement Problem Based Learning at my schools.  An appreciation of this design efficiency, along with the idea of getting to build things, drives me right now to get up every morning at 5am and build things in React.js before work so I can join a modern web development team.<br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- <p type="button" class="clear btn btn-info" data-toggle="collapse" data-target="#demo">More</p> -->
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- Third  section -->
+<section class="section hold-mat" id="star-project">
+    <div class="container">
+
+      <div class="row">
+          <div class="col-sm-7 col-sm-offset-3  ghost-mat">
+              <h2 class="text-left title">Project Portfolio</h2>
+              <h3><a href="https://github.com/atom-box/many-dishes" target="_blank"> Front-end project focused on CSS & JS/AJAX</a></h3>
+              <p>This is the front end of a website for a restaurant.  The images on each menu load using Javascript. </p>
+              <p>For the layout I used 100% floats for the positioning.  That decision added hours of extra work; I wouldn't make that choice again. </p>
+              <p>I started with an existing library of food photos from a Heroku server and built the AJAX javascript (no React) that serves them to the page. </p>
+              <p>
+              	<a href="http://littlefurnace.com/food/index.html" target="_blank" class="btn btn-success" role="button">Run</a> 
+              	<a href="https://github.com/atom-box/many-dishes" target="_blank" class="btn btn-default" role="button btn btn-primary">Github</a>
+              </p>
+
+          	<div class="left-block">
+              <a href="http://littlefurnace.com/food/index.html" target="_blank">
+                  <img src="assets/images/many-dishes.png" alt="Restaurant website layout" class="clickable" id="project-main">
+              </a>
+             </div>
+             <h3> More projects</a></h3>
+              <p>My work since 2017 is all in my repository.</p>
+
+              	<a href="https://github.com/atom-box/" target="_blank" class="btn btn-default" role="button btn btn-primary">Github</a>
+          	<div class="left-block">
+              <a href="https://github.com/atom-box" target="_blank">
+                  <img src="assets/images/github-520x348.png" alt="Github repository page" class="clickable" id="project-main">
+              </a>
+             </div>
+
+
+
+
+
+          </div>
+      </div>
+</section>
+
+
+
+
+
+
+ 
+<!-- Fourth (Contact) section -->
+<section class="section hold-mat" id="contact">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-7 col-sm-offset-3  ghost-mat text-center">	
+ 
+				<h2>Evan Genest</h2>
+				<img src="assets/images/phone-email-temporary.png" class="text-as-image">
+
+				<ul class="list-inline list-social">
+					<li><a href="https://twitter.com/mistergenest" class="btn btn-link"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+					<li><a href="https://github.com/atom-box" class="btn btn-link"><i class="fab fa-github"></i> Github</a></li>
+					<li><a href="https://www.linkedin.com/in/evan-genest-b6648380/" class="btn btn-link"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+					<li><a href="assets/images/Evan-Genest-2019-resume.pdf" class="btn btn-link"><i class="far fa-file-pdf"></i> My Resume</a></li>				</ul>
+	
+</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- Load js libs only when the page is loaded. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="assets/js/modernizr.custom.72241.js"></script>
+<!-- Custom template scripts -->
+<script src="assets/js/magister.js"></script>
+</body>
+</html>

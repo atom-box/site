@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check Back! | Evan Genest Portfolio</title>
+</head>
+<body>
+<img src="../images/cal.png"><!--drawn on a...napkin at Starbucks-->
+<h1 class="header">
+The project you searched for is not yet loaded to this server.
+<br>Please check back in <span id="date"></span>.<br>
+</h1>
+<!--This is a sincere promise.   The date has to change b/c I plan this 404 to have varied inputs during page development.-->
+<p><br></p>
+<aside>
+<h2><a href="https://www.poetryfoundation.org/poems/42916/jabberwocky">Jabberwocky</a> (1871)</h2>
+<p>
+Twas brillig, and the slithy toves Did gyre and gimble in the wabe: All mimsy were the borogoves, And the mome raths outgrabe. Beware the Jabberwock, my son! The jaws that bite, the claws that catch! Beware the Jubjub bird, and shun The frumious Bandersnatch! He took his vorpal sword in hand; Long time the manxome foe he sought. So rested he by the Tumtum tree And stood awhile in thought. And, as in uffish thought he stood, The Jabberwock, with eyes of flame, Came whiffling through the tulgey wood, And burbled as it came! One, two! One, two! And through and through The vorpal blade went snicker-snack! He left it dead, and with its head He went galumphing back. “And hast thou slain the Jabberwock? Come to my arms, my beamish boy! O frabjous day! Callooh! Callay!” He chortled in his joy. Twas brillig, and the slithy toves Did gyre and gimble in the wabe: All mimsy were the borogoves, And the mome raths outgrabe.
+</p>
+
+<h2>Flatworm <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_003280.10?report=fasta&from=7580270&to=7583557">DNA</a> fragment</h2>
+<p>>NC_003280.10:7580270-7583557 Caenorhabditis elegans chromosome II
+TTAAACAAGAAATCGTTGATCTACTAAACTCGTCTTAATCAAATGATTCGTTGACAAGTAACCGAAAATC
+AAACGGATCAAGTGAGAAATAACATACACAACAAAACCAGCAAGATATAAAGATCCAGACCATAAATAGA
+AGACTGTAACTGTTAAACATTCAAATGAAGTCCAAGCCCACTCATTTCCATAGACAAAACATCGGGAGTA
+TGCAATCTCCACAGGATCCCTTAAATTAATTATTGGTTTGAATAATAATTTGAGTTATATGTATCTACCT
+TGTGAATGTGCCTGTAATTGATGAATCACTCATTTCCATATCTAAAACTGATTCCAAGACTGGTCGATCC
+CGAACAACATATTCGATATCTGTTATTGAATGATCTACAAATTTCTTTAAAAATGAGTTCATTTGGGAAT
+GAGCATCGACTGTTGCATTCATTTTTGCCGTGATCGCTTCATGTCCAACTACACCAGATGTAGTTTGTTT
+GGAGACCGCAAAAATTTCGTCATATTTCGAACGAAACAAATTCGGTAGATTTACCGTGAAAGTCTGAAGC
+TCTGATCCTGGTTCAAGTCCTCGGAATCCGCATAAATTATTCTGAAAATATATGACCTCAGTTTTCGTAA
+AACAAATCACCGCCAACTAACCCGCTCGCGTTGTAAGAATTCATTCATCTCACTCATTCCAGCATCACCC
+</p>
+<h2><a href="https://www.ssa.gov/oact/babynames/state/index.html"></a>Hawaii <a href="https://www.ssa.gov/oact/babynames/state/index.html">Names</a></h2>
+<p>Popularity for top 100 names in Hawaii for births in 1998 Rank Male name Number of males Female name Number of females 1 Joshua 135 Taylor 77 2 Matthew 103 Kayla 65 3 Noah 100 Ashley 64 4 Austin 83 Jessica 62 5 Christian 83 Alyssa 57 6 Jacob 83 Emily 55 7 Brandon 81 Sarah 49 8 Christopher 79 Rachel 48 9 Justin 79 Kiana 47 10 Tyler 78 Alexis 46 11 Michael 74 Samantha 46 12 Nicholas 73 Jasmine 44 13 Isaiah 72 Nicole 44 14 Micah 72 Emma 35 15 Dylan 67 Madison 35 16 Zachary 66 Hannah 34 17 Jordan 62 Lauren 34 18 Andrew 61 Elizabeth 33 19 John 61 Malia 33 20 Ryan 60 Megan 33 21 Joseph 58 Michelle 33 22 David 57 Amber 32 23 Daniel 56 Sydney 31 24 Kyle 56 Victoria 31 25 Jonathan 53 Amanda 30 26 James 49 Jordan 29 27 Alexander 48 Brianna 28 28 Samuel 47 Kylie 28 29 William 47 Chloe 27 30 Aaron 45 Courtney 27 31 Ethan 44 Danielle 27 32 Elijah 39 Brooke 26 33 Thomas 37 Chelsea 26 34 Jonah 36 Destiny 25 35 Nathan 36 Abigail 24 36 Anthony 35 Jennifer 24 37 Logan 35 Kaitlyn 24 38 Sean 35 Sierra 24 39 Cody 34 Tiana 24 40 Jared 34 Christina 22 41 Hunter 33 Gabrielle 22 42 Kevin 33 Naomi 22 43 Robert 33 Jade 21 44 Chase 32 Savannah 21 45 Jason 32 Kimberly 20 46 Isaac 31 Mikayla 20 47 Caleb 30 Tiffany 20 48 Josiah 30 Angel 19 49 Connor 28 Haley 19 50 Richard 28 Selena 19 51 Devin 26 Alexandra 18 52 Gabriel 26 Briana 18 53 Eric 25 Tatiana 18 54 Brian 24 Cheyenne 17 55 Ian 24 Christine 17 56 Jesse 24 Erin 17 57 Adam 23 Kylee 17 58 Bradley 23 Olivia 17 59 Bryson 23 Sara 17 60 Seth 23 Zoe 17 61 Trevor 23 Angelica 16 62 Cameron 22 Julia 16 63 Kainoa</p>
+</aside>
+<address>
+	<h2> <a href="index.html">Return</a> to Evan Genest web developer portfolio.</h2>
+</address>
+
+<link type="text/css" href="../styles/bootswatch-superhero.mini.css" rel="stylesheet">
+<script type="text/javascript">
+
+const d = new Date();
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	document.getElementById("date").innerHTML = months[1 + d.getMonth()];
+</script>
+<style type="text/css">
+	.header  {
+		margin: 3rem; 
+		position: relative; 
+		float: left;
+	}
+	h1, h2 {
+		font-size: 1.5rem;
+	}
+	aside, address {
+		width: 75%;
+		position: relative;
+		float: right;
+	}
+	img {
+		width: 20%;
+		position: relative;
+		float: left;
+		clear: left;
+	}
+</style>
+</body>
+</html>
