@@ -13,19 +13,17 @@
   --blue-pale: rgb(117, 194, 243 );
   --highlight1: rgb(125, 252, 78  );
   --highlight2: rgb(116, 250, 197 );
-  --mat1:  rgba(53, 121, 61, 0.3); /*#35793d;*/
-  --mat2: rgba(64, 146, 107, 0.3); /**/  #40926b;
-  --mat3: rgba(53, 121, 102, 0.3 ); /**/ #357966; /* 116 250 197  for text complement*/
+  --mat1:  rgba(53, 121, 61, 0.44); 
+  --mat2: rgba(64, 146, 106, 0.44); 
+  --mat3: rgba(53, 121, 102, 0.44 ); 
   --text-for-mat3: rgb(116, 250, 197);
-  --mat4: rgba(59, 121, 53, 0.3); /**/ #3b7935;
-  --mat5: rgba(53, 121, 88, 0.3); /**/ #357958; /*116  250 162 for text complement*/ 
-  --mat5solid: rgb(53, 121, 88); /**/ #357958; /*116  250 162 for text complement*/ 
+  --mat4: rgba(59, 121, 53, 0.3); 
+  --mat5: rgba(53, 121, 88, 0.3); 
+  --mat5solid: rgb(53, 121, 88); 
   --text-for-mat5: rgb(116  250 162);
   --mat6: var(--mat1);
   --mat7: yellow;
   --mat8: yellow;
-  --device1: var(--mat4);
-  --device2: var(--mat5);
   --link1: #ffa;
   --white: #fff;
 }
@@ -57,7 +55,7 @@ a.link1{
 }
 
 a.link1:hover{
-  color: var(--blue-pale);
+  color: #fff;
   text-decoration: none;
   font-style: italic;
   transition: ease-in-out color .15s;
@@ -85,12 +83,6 @@ i.fab {
   content: '\7e';
   margin-right: 15px;
 }
-
-
-
-.s19 li:before{
-}
-
 
 /*
  * Font
@@ -130,9 +122,7 @@ nav div a.brand.font-chunky {
   }
 
 .back {
-  xopacity: 0.6;
   border-radius: 21px;
-
 }
 
 .back-light {
