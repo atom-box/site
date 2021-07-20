@@ -24,6 +24,8 @@
   --mat6: var(--mat1);
   --mat7: yellow;
   --mat8: yellow;
+  --device1: var(--mat4);
+  --device2: var(--mat5);
   --link1: #ffa;
   --white: #fff;
 }
@@ -51,11 +53,11 @@ footer ul li  {
 
 a.link1{
   text-decoration: none;
-  color: #ffa;
+  color: rgb(208, 208, 21);
 }
 
 a.link1:hover{
-  color: #fff;
+  color: rgb(104, 104, 21);
   text-decoration: none;
   font-style: italic;
   transition: ease-in-out color .15s;
@@ -63,7 +65,8 @@ a.link1:hover{
 
 i.fab {
   color: white;
-  padding-right: 2rem;
+  xxxpadding-right: 2rem;
+  font-size: 11rem;
 }
 
 .list-group-item {
@@ -174,7 +177,7 @@ nav div a.brand.font-chunky {
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
-  color: var(--blue-pale);
+  color: #ddd;
   text-decoration: none;
 }
 
@@ -224,7 +227,7 @@ footer {
   border-radius: 21px;
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
-  z-index: 0;
+  z-index: -1;
 }
 
 .whimsy-inside {
@@ -300,4 +303,28 @@ address#contact h2 {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+.very-centered {
+    display: flex;          /*(1)VERT*/
+    flex-direction: row;    /*(1)VERT*/
+    align-items: center;    /*(1)VERT*/
+    justify-content: center;  /*(2)HORIZ*/
+}
+
+.card-button {
+
+}
+
+.btn-group > .btn:first-child {
+    margin-left: 50%;
+    margin-right: 0;
+    background-color:  var(--mat1);
+}
+
+.button-holder {
+        display: flex;          /*(1)VERT*/
+        flex-direction: row;    /*(1)VERT*/
+        justify-content: right;  /*(2)HORIZ*/
+    }
 }
