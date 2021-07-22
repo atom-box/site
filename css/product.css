@@ -37,6 +37,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+article {
+    margin: 5rem 0 5rem 0;
+}
+
 /*
  *  Lists.   Links.
  */
@@ -67,7 +71,7 @@ a.link1:hover{
 
 .card-icon {
   color: white;
-  font-size: 2rem;
+  font-size: 7rem;
 }
 
 .list-group-item {
@@ -163,38 +167,6 @@ nav div a.brand.font-chunky {
 
 
 /*
- * site header and footer
- */
-
-.site-header, footer {
-  background-color: var(--mat5solid);
-  opacity: .75;
-  color: var(--white); 
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-
-div.social i.fab {
-    color: var(--like-gold);
-    font-size: 2.4rem;
-    padding: 0 0.8rem 0 0.8rem;
-}
-
-div.social i.fab:hover {
-  transform: rotate(10deg);
-}
-
-.site-header a {
-  color: var(--link1);
-  transition: ease-in-out color .15s;
-}
-.site-header a:hover {
-  color: #ddd;
-  text-decoration: none;
-}
-
-
-/*
  *  Landing / Jumbotron
  */
 
@@ -261,10 +233,53 @@ footer {
   background-color: rgba(240, 240, 240, 0.9);
 }
 
+/*
+ *  Table
+ *
+ */
+div.table-holder {
+    border: 0.1rem solid #ccc;
+    margin: 3rem;
+}
+
+div.table-head p {
+    display: inline-block;
+}
+
+
 
 /*
- *  Address
+ * site header and footer
  */
+
+ .site-header, footer {
+    background-color: var(--mat5solid);
+    opacity: .75;
+    color: var(--white); 
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+
+  .site-header a {
+    color: var(--link1);
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: #ddd;
+    text-decoration: none;
+  }
+  
+  
+div.social i.fab {
+    color: var(--like-gold);
+    font-size: 2.4rem;
+    padding: 0.5rem 0.8rem 0 0.8rem;
+}
+
+div.social i.fab:hover {
+  transform: rotate(10deg);
+}
+
 
 address#contact h2 {
   font-size: 1rem;
@@ -328,7 +343,7 @@ address#contact h2 {
 .btn-group > .btn:first-child {
     margin-left: 50%;
     margin-right: 0;
-    background-color:  var(--mat1);
+    xbackground-color:  var(--mat1);
 }
 
 .button-holder {
