@@ -163,7 +163,7 @@ nav div a.brand.font-chunky {
 
 
 /*
- * site header w translucence
+ * site header and footer
  */
 
 .site-header, footer {
@@ -176,14 +176,12 @@ nav div a.brand.font-chunky {
 
 div.social i.fab {
     color: var(--like-gold);
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     padding: 0 0.8rem 0 0.8rem;
 }
 
 div.social i.fab:hover {
-    /* border: 0.1rem solid #aaa; */
-    /* border-radius: 1.4rem; */
-    font-size: 1.6rem;
+  transform: rotate(10deg);
 }
 
 .site-header a {
