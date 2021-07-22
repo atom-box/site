@@ -28,6 +28,8 @@
   --device2: var(--mat5);
   --link1: #ffa;
   --white: #fff;
+  --like-gold: rgb(208, 208, 21);
+
 }
 
 * {
@@ -53,7 +55,7 @@ footer ul li  {
 
 a.link1{
   text-decoration: none;
-  color: rgb(208, 208, 21);
+  color: var(--like-gold);
 }
 
 a.link1:hover{
@@ -63,10 +65,9 @@ a.link1:hover{
   transition: ease-in-out color .15s;
 }
 
-i.fab {
+.card-icon {
   color: white;
-  xxxpadding-right: 2rem;
-  font-size: 11rem;
+  font-size: 2rem;
 }
 
 .list-group-item {
@@ -172,6 +173,19 @@ nav div a.brand.font-chunky {
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
+
+div.social i.fab {
+    color: var(--like-gold);
+    font-size: 1.4rem;
+    padding: 0 0.8rem 0 0.8rem;
+}
+
+div.social i.fab:hover {
+    /* border: 0.1rem solid #aaa; */
+    /* border-radius: 1.4rem; */
+    font-size: 1.6rem;
+}
+
 .site-header a {
   color: var(--link1);
   transition: ease-in-out color .15s;
@@ -311,10 +325,7 @@ address#contact h2 {
     align-items: center;    /*(1)VERT*/
     justify-content: center;  /*(2)HORIZ*/
 }
-
-.card-button {
-
-}
+ 
 
 .btn-group > .btn:first-child {
     margin-left: 50%;
