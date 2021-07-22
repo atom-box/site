@@ -1,8 +1,12 @@
 
 .container {
-  max-width: 960px;
+  max-width: 1300px;
 }
 
+xarticle {
+    margin: 5rem 0 5rem 0;
+    max-width: 66rem;
+}
 
 :root {
   --light-gray: rgba(237, 234, 225, 0.5);
@@ -37,10 +41,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-article {
-    margin: 5rem 0 5rem 0;
-}
-
 /*
  *  Lists.   Links.
  */
@@ -56,6 +56,18 @@ ul li {
 footer ul li  {
     font-size: 1rem;
 }
+
+.block {
+    background-color:  var(--lightGray)       ;
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+.elShadow {
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0.1rem hidden;
+    border-radius: 0.3rem;
+  }
 
 a.link1{
   text-decoration: none;
