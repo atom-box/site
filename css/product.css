@@ -320,6 +320,7 @@ address#contact h2 {
   -ms-flex: 1;
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     -ms-flex: 1;
@@ -348,6 +349,10 @@ address#contact h2 {
   height:106px;
   border-radius: 0.5rem;
 
+}
+
+img.article-image {
+    max-height: 8rem;
 }
 
 @media (min-width: 768px) {
