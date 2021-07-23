@@ -151,6 +151,20 @@ nav div a.brand.font-chunky {
     margin-bottom: 8rem;
 }
 
+div.stripe-under + div.stripe-over {
+    width: 100%;
+    height: 20px;
+}
+
+.stripe-restaurant {
+    background-color: #61122f;
+    /* deep reddish */
+}
+
+.stripe-pikl {
+    background-color: #0054af;
+    /* pikL blue */
+}
 
   .outpanel {
     overflow: scroll;
