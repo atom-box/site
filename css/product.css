@@ -1,40 +1,52 @@
+:root {
+    --light-gray: rgba(237, 234, 225, 0.5);
+    --black: rgb(0,0,0);
+    --orange: rgb( 226, 123, 8 );
+    --orange-alt: rgb(255, 190, 72 );
+    --green: rgb(68,  101, 22 );
+    --blue-pale: rgb(117, 194, 243 );
+    --highlight1: rgb(125, 252, 78  );
+    --highlight2: rgb(116, 250, 197 );
+    --mat1:  rgba(53, 121, 61, 0.44); 
+    --mat2: rgba(64, 146, 106, 0.44); 
+    --mat3: rgba(53, 121, 102, 0.44 ); 
+    --text-for-mat3: rgb(116, 250, 197);
+    --mat4: rgba(59, 121, 53, 0.3); 
+    --mat5: rgba(53, 121, 88, 0.3); 
+    --mat5solid: rgb(53, 121, 88); 
+    --text-for-mat5: rgb(116  250 162);
+    --mat6: var(--mat1);
+    --mat7: yellow;
+    --mat8: yellow;
+    --device1: var(--mat4);
+    --device2: var(--mat5);
+    --link1: #ffa;
+    --white: #fff;
+    --like-gold: rgb(208, 208, 21);
+  }
 
 .container {
   max-width: 1300px;
 }
 
+body {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");
+    /* SVG from Philip Rogers */
+    /* https://philiprogers.com/svgpatterns/#whitecarbon */
+}
+
 xarticle {
     margin: 5rem 0 5rem 0;
     max-width: 66rem;
+    background-color: blue;
 }
 
-:root {
-  --light-gray: rgba(237, 234, 225, 0.5);
-  --black: rgb(0,0,0);
-  --orange: rgb( 226, 123, 8 );
-  --orange-alt: rgb(255, 190, 72 );
-  --green: rgb(68,  101, 22 );
-  --blue-pale: rgb(117, 194, 243 );
-  --highlight1: rgb(125, 252, 78  );
-  --highlight2: rgb(116, 250, 197 );
-  --mat1:  rgba(53, 121, 61, 0.44); 
-  --mat2: rgba(64, 146, 106, 0.44); 
-  --mat3: rgba(53, 121, 102, 0.44 ); 
-  --text-for-mat3: rgb(116, 250, 197);
-  --mat4: rgba(59, 121, 53, 0.3); 
-  --mat5: rgba(53, 121, 88, 0.3); 
-  --mat5solid: rgb(53, 121, 88); 
-  --text-for-mat5: rgb(116  250 162);
-  --mat6: var(--mat1);
-  --mat7: yellow;
-  --mat8: yellow;
-  --device1: var(--mat4);
-  --device2: var(--mat5);
-  --link1: #ffa;
-  --white: #fff;
-  --like-gold: rgb(208, 208, 21);
-
+article.elShadow.block{
+    background-color:#fff;
+    max-width: 1100px;
+    margin-bottom: 7rem;
 }
+
 
 * {
   z-index: 1;
@@ -133,7 +145,6 @@ nav div a.brand.font-chunky {
 /*
  *  Cards
  */
-
 
   .outpanel {
     overflow: scroll;
