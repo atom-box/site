@@ -147,6 +147,11 @@ nav div a.brand.font-chunky {
  *  Cards
  */
 
+ div.card {
+    margin-bottom: 8rem;
+}
+
+
   .outpanel {
     overflow: scroll;
     height: 16rem;
