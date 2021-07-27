@@ -175,7 +175,7 @@ div.button-holder a.btn {
 
 .navspacer {
     padding-left: 3rem;
-  }
+}
 
 /*  COLORS OF TEXT*/
 
@@ -262,6 +262,14 @@ div.social i.fab {
 
 div.stripe-under {
     background-color: var(--mat4);
+    height: 225px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    div.stripe-under {
+        height: 115px;
+    }
 }
 
 /* TEXTURE & SIZINGS OF TEXT but not coloring, not position or justify */
@@ -314,11 +322,13 @@ a.link1:hover {
 }
 
 .font-big {
-    font-size: 4rem;
+    font-font-size: 2.5rem;
+    size: 4rem;
 }
 
 .font-big-big {
-    font-size: 6rem;
+    font-font-size: 2.5rem;
+    size: 6rem;
 }
 
 .font-chunky {
@@ -355,11 +365,15 @@ td i.fab, td i.fas {
     font-size: 2rem;
 }
 
-
-
-@media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    .font-big {
+        font-size: 2.5rem;
+    }
+    .card-icon {
+        font-size: 3rem;
     }
 }
 
