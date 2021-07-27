@@ -177,6 +177,22 @@ div.button-holder a.btn {
     padding-left: 3rem;
 }
 
+div.stripe-under {
+    height: 225px;
+    width: 100%;
+}
+
+@media (max-width: 950px) {
+    div.stripe-under {
+        height: 115px;
+    }
+    .small-hide {
+        display: none;
+    }
+}
+
+
+
 /*  COLORS OF TEXT*/
 
 /*  COLORS OF TEXT*/
@@ -262,14 +278,6 @@ div.social i.fab {
 
 div.stripe-under {
     background-color: var(--mat4);
-    height: 225px;
-    width: 100%;
-}
-
-@media (max-width: 768px) {
-    div.stripe-under {
-        height: 115px;
-    }
 }
 
 /* TEXTURE & SIZINGS OF TEXT but not coloring, not position or justify */
