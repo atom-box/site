@@ -193,6 +193,39 @@ div.stripe-under {
 
 
 
+@media (max-width: 450px) {
+    div.stripe-under {
+        height: 80px;
+    }
+
+    article.elShadow.block {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    article.elShadow.block {
+        margin-bottom: 2rem;
+        border-radius: 0.5rem;
+    }
+
+    .block {
+        margin: 0.3rem;
+        padding: 0.3rem;
+    }
+
+    .elShadow {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 0.3rem;
+    }
+    h2 {
+        margin-bottom: 0.8rem;
+    }
+}
+
+
+
 /*  COLORS OF TEXT*/
 
 /*  COLORS OF TEXT*/
@@ -219,12 +252,12 @@ body {
     z-index: 1;
 }
 
-article.elShadow.block {
-    background-color: #fff;
-}
-
 .elShadow {
     box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article.elShadow.block {
+    background-color: #fff;
 }
 
 a.link1 {
@@ -235,7 +268,7 @@ a.link1:hover {
     color: rgb(104, 104, 21);
 }
 
-.card-icon {
+div.card-icon {
     color: #fff;
 }
 
@@ -382,6 +415,7 @@ td i.fab, td i.fas {
     }
     .card-icon {
         font-size: 3rem;
+        color:#fff;
     }
 }
 
