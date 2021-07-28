@@ -113,7 +113,7 @@ address#contact h2 {
     flex: 1;
 }
 
-#evan-headshot {
+.evan-headshot {
     width: 125px;
     height: 106px;
     border-radius: 0.5rem;
@@ -182,6 +182,13 @@ div.stripe-under {
     width: 100%;
 }
 
+@media (min-width: 950px) {
+    .large-hide {
+      display: none;
+    }
+
+}
+
 @media (max-width: 950px) {
     div.stripe-under {
         height: 115px;
@@ -191,7 +198,9 @@ div.stripe-under {
     }
 }
 
-
+div.john-hancock {
+    text-align: center;
+}
 
 @media (max-width: 450px) {
     div.stripe-under {
@@ -336,7 +345,7 @@ h2 a {
 }
 
 ul li {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 footer ul li {
