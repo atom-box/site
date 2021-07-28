@@ -222,6 +222,10 @@ div.stripe-under {
     h2 {
         margin-bottom: 0.8rem;
     }
+
+    td a button.btn {
+        white-space: normal;
+    }
 }
 
 
