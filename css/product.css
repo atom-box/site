@@ -317,6 +317,10 @@ div.stripe-under {
     background-color: var(--mat4);
 }
 
+.card-icon {
+    color: #fff;
+}
+
 /* TEXTURE & SIZINGS OF TEXT but not coloring, not position or justify */
 
 /* TEXTURE & SIZINGS OF TEXT but not coloring, not position or justify */
@@ -419,7 +423,6 @@ td i.fab, td i.fas {
     }
     .card-icon {
         font-size: 3rem;
-        color:#fff;
     }
 }
 
