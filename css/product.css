@@ -52,6 +52,10 @@ article.elShadow.block {
     padding: 2rem;
 }
 
+.moreBottom {
+    margin-bottom: 2rem;
+}
+
 .elShadow {
     border: 0.1rem hidden;
     border-radius: 0.3rem;
