@@ -322,7 +322,7 @@ nav div a.brand.font-chunky {
     color: #ddd;
 }
 
-div.social i.fab {
+div.social i {
     color: var(--like-gold);
 }
 
@@ -407,11 +407,11 @@ a.link1:hover {
     text-decoration: none;
 }
 
-div.social i.fab {
+div.social i {
     font-size: 2.4rem;
 }
 
-div.social i.fab:hover {
+div.social i:hover {
     transform: rotate(10deg);
 }
 
