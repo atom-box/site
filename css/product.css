@@ -193,7 +193,7 @@ div.stripe-under {
 
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1250px) {
     div.stripe-under {
         height: 115px;
     }
