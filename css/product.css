@@ -285,6 +285,10 @@ a.link1:hover {
     color: rgb(104, 104, 21);
 }
 
+h2 a.link1 {
+    font-size: 4rem;
+}
+
 div.card-icon {
     color: #fff;
 }
