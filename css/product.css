@@ -241,6 +241,9 @@ div.john-hancock {
     }
 }
 
+.not-too-big {
+    max-width: 80%;
+}
 
 /*  COLORS OF TEXT*/
 
