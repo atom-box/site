@@ -333,6 +333,12 @@ div.stripe-under {
     background-color: var(--mat4);
 }
 
+div.stripe-under#white-with-border {
+    background-color: white;
+    border: 12px solid var(--mat4);
+}
+
+
 .card-icon {
     color: #fff;
 }
