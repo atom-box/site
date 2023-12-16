@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        p,
+        button {
+            font-family: verdana;
+            font-size: 20px;
+        }
+    </style>
+
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setExcludedQueryParams", ["yyy","99999"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//littlefurnace.com/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+<!-- Begin Matomo A/B Test 
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['AbTesting::create', {
+        name: 'tell-to-go-blue', // you can also use '1' (ID of the experiment) to hide the name
+        percentage: 100,
+        includedTargets: [{"attribute":"url","inverted":"0","type":"equals_simple","value":"https:\/\/littlefurnace.com\/contact\/index.html"}],
+        excludedTargets: [],
+        variations: [
+            {
+                name: 'original',
+                activate: function (event) {
+                    // usually nothing needs to be done here
+                }
+            },
+            {
+                name: 'Variation1', // you can also use '1' (ID of the variation) to hide the name
+                percentage: 51,
+                activate: function(event) {
+                    event.redirect('https://littlefurnace.com/contact/index2.html');
+                }
+            }            
+        ],
+        trigger: function () {
+            return true; // here you can further customize which of your visitors will participate in this experiment
+        }
+    }]);
+</script>
+<!-- Matomo A/B Test -->
+ Matomo A/B Test -->
+
+
+</head>
+
+<body>
+    <h1>You should click the red button</h1>
+    <p>This is the original page.</p>
+    <div><h2><a href="https://example.com"> Red</a></h2></div>
+    <div><h2><a href="https://brave.com"> Blue</a></h2></div>
+    <div><h2><a href="https://google.com">Yello</a></h2></div>
+</body>
+
+</html>
