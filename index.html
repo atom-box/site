@@ -31,15 +31,20 @@
 
 
 
+
 <!-- Matomo -->
 <script>
-  // JUST TESTING A VALUE FOR xyz
-  // var xyz = "eleanor_roosevelt";
-  // _paq.push(['setUserId', xyz]);
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(["setExcludedQueryParams", ["yyy","99999"]]);
-  _paq.push(['requireCookieConsent']);
+  _paq.push(["setExcludedQueryParams", ["yyy","99999","88888","cantoken","texas"]]);
+  // Use the minutes stamp to make a few dozen usernames
+  var minuteOfTheDay = new Date().getMinutes();
+  var hourOfTheDay = new Date().getHours();
+  var xyz = 'shelby_' + minuteOfTheDay;
+    _paq.push(['setUserId', xyz]);
+
+
+
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -51,6 +56,12 @@
 </script>
 <script src="//littlefurnace.com/matomo/matomo.js"></script>
 <!-- End Matomo Code -->
+
+
+
+
+
+
 
 
 </head>
@@ -292,7 +303,6 @@
 
 
 
-                            <p>So I "saved time" by finding someone else's animation but it took hours and hours to make it look right.  
                             </p>
                         </div>
                         <div class="button-holder btn-group">
@@ -307,7 +317,6 @@
 
 
 
-<p>Hi, I'm a Midvale Church member organizing sign ups for the photo directory. The photographer cancelled for Friday Oct 25 (your session day). Please reschedule by signing up for a new session. Any other day is fine but we are especially looking to fill slots on Oct 23 & 24. You do not need to cancel your existing session, we will log in and cancel it for you. Any questions, voice call me back (best) or voice call Pam in the church office. -Evan Genest</p>
 
 
                 <h2>
